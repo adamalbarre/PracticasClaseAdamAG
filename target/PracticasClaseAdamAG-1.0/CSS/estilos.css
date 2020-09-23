@@ -18,13 +18,18 @@ and open the template in the editor.
     font-family: Roboto;
     src: url(../FONTS/Roboto-Regular.ttf);
   }
+  
+@font-face {
+    font-family: Courgette;
+    src: url(../FONTS/Courgette-Regular.ttf);
+  }
 
 html {
     background-image: url(fondo2.jpg);
 }
 
 h1 {
-    font-family: 'Roboto', 'sans-serif';
+    font-family: 'Courgette', 'sans-serif';
     text-align: center;
     margin-bottom: 2em;
     text-decoration: underline;
