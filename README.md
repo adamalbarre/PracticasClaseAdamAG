@@ -8,5 +8,5 @@
 2. Contexto
     * Servlet que devuelve la ruta raiz de la aplicación. 
 
-3. Cabeceras]
-    * Muestra las cabeceras HTML traducidas.
+3. Cabeceras
+    * Servlet que muestra las cabeceras HTML traducidas.
