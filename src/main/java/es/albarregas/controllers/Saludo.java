@@ -41,11 +41,13 @@ public class Saludo extends HttpServlet {
             out.println("\n" +
 "        <link rel=\"stylesheet\" href=\"CSS/estilos.css\">");              
             out.println("</head>");
-            out.println("<body>");
+            out.println("<body><div>");
             out.println("<h1>Hola mundo Servlet</h1>");
             out.println("<p>Saludos por el método "+ request.getMethod() + "</p>");
-            out.println("</body>");
-            out.println("<p id=\"volver\"><a href=\"index.html\">Volver</a></p>");
+            out.println("<div id='botones'>"
+                    + "<br><br>"
+                    + "<input type=\"button\" value=\"Volver\" onclick=\"location.href='"+ request.getContextPath()+"/index.html'\">"
+                    + "</div></div</body>");
             out.println("</html>");
         }
     }
