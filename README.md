@@ -10,3 +10,6 @@
 
 3. Cabeceras
     * Servlet que muestra las cabeceras HTML traducidas.
+    
+4. Formulario Simple
+   * Servlet que muestra los datos introducidos en un formulacio.
