@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Formulario Simple</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../CSS/estiloFormSimple.css">
+    </head>
+    <body>
+        <h1>Formulario Simple</h1>
+            <form action="..\FormularioSimple" method="post">
+                <div>
+                <fieldset>
+                    <legend><em><strong>Datos Personales</strong></em></legend>
+                        <p><label for="usu">Usuario:</label>&nbsp;&nbsp;
+                            <input type="text" name="usu" id="usu" value="" tabindex="1" placeholder="Usuario" required/></p>
+                        &nbsp;&nbsp;
+                        <p><label for="pass">Password:</label>&nbsp;&nbsp;
+                            <input type="password" name="pass" id="pass" tabindex="2" placeholder="Contraseña" required></p>
+                        &nbsp;&nbsp;
+                        <p><label for="edad">Edad:</label>&nbsp;&nbsp;
+                            <input type="number" name="edad" id="edad" min="0" tabindex="2" placeholder="Edad" required></p>
+                        &nbsp;&nbsp;
+                </fieldset>
+                    <br><br>
+                <fieldset>
+                    <legend>Otros datos</legend>
+                        <p>Estado civil:&nbsp;&nbsp;
+                            <input type="radio" name="civil" value="Soltero/a" id="sol" required><label for="sol">Soltero/a</label>
+                            <input type="radio" name="civil" value="Casado/a" id="cas"><label for="cas">Casado/a</label>
+                            <input type="radio" name="civil" value="Viudo/a" id="viu"><label for="viu">Viudo/a</label>
+                            <input type="radio" name="civil" value="Divorciado/a" id="divor"><label for="divor">Divorciado/a</label></p>
+                        &nbsp;&nbsp;
+                        <p>Aficiones:(Uno o varios, CTRL<br><br>
+                        <select name="aficiones" size="6" multiple required>
+                            <option value="Deporte">Deporte</option>
+                            <option value="Musica">Música</option>
+                            <option value="Informatica">Informática</option>
+                            <option value="Viajes">Viajes</option>
+                            <option value="Tiendas">Tiendas</option>
+                            <option value="Juegos">Juegos</option>
+                        </select></p>
+                        <p>Comentario:<br>
+                            <textarea name="comentario" rows="8" cols="65" placeholder="Introduzca aquí su comentario..." required></textarea></p>
+                </fieldset>
+                    <br><br>
+                <fieldset>
+                    <legend>Medios tecnologicos</legend>
+                    <br>
+                    <p>¿Dispones de internet?
+                    <input type="radio" name="internet" value="Si" id="si" required><label for="si">Si</label>
+                    <input type="radio" name="internet" value="No" id="no"><label for="no">No</label></p>
+                    <p>Sistema operativo<br><br>
+                    <select name="os" size="4" required>
+                        <option value="Linux">Linux</option>
+                        <option value="Windows">Windows</option>
+                        <option value="Macintosh">Macintosh</option>
+                        <option value="Solaris">Solaris</option>
+                    </select></p>
+                </fieldset>
+                <br>    
+                </div>
+        <div id="botones">
+        <br><br>
+        <input type="button" value="Volver" onclick="location.href='../index.html'">
+        <input type="submit" name="enviar" value="Enviar">
+        <input type="reset" value="Limpiar">
+               
+        </div>
+    </form>
+    </body>
+</html>

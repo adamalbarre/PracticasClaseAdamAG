@@ -1,0 +1,8 @@
+{
+    "elements": {},
+    "attributes": {
+        "+request.getcontextpath()+\"": {
+            "context": "input"
+        }
+    }
+}

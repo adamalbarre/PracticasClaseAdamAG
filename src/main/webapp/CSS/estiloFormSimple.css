@@ -1,0 +1,79 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25-sep-2020, 19:22:56
+    Author     : Adam
+*/
+
+@font-face {
+    font-family: RobotoB;
+    src: url(../FONTS/Roboto-Bold.ttf);
+  }
+
+@font-face {
+    font-family: Roboto;
+    src: url(../FONTS/Roboto-Regular.ttf);
+  }
+  
+@font-face {
+    font-family: Courgette;
+    src: url(../FONTS/Courgette-Regular.ttf);
+  }
+
+html {
+    background-image: url(fondo2.jpg);
+    font-family: 'Courgette', 'sans-serif';
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 2em;
+    text-decoration: underline;
+    color:lightblue;
+}
+
+div {
+    text-align: center;
+    color:lightblue;
+}
+
+fieldset{
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    color:lightblue;
+    
+}
+
+p{
+    text-align: center;
+    color:white;
+}
+
+legend {
+    text-decoration: underline;
+    color:lightblue;
+}
+
+form {
+    text-align: center;
+}
+
+div #botones{
+    text-align: center;
+}
+
+input[type=button] {
+    background-color: #EFEFEF;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+input[type=button]:hover {
+    background-color: #ccccff;
+    border-color: #ccccff;
+}
