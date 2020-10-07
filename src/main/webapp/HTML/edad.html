@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Edad</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../CSS/estiloFormSimple.css">
+    </head>
+    <body>
+        <div>
+            <form action="../JSP/edad.jsp" method="post">
+                <fieldset><legend>Edad y fecha de nacimiento</legend>
+                    <br>
+                    Nombre <input type="text" name="nombre">
+                    <br><br>
+                    Edad <input type="date" name="fNac" required>
+                    <br><br>
+                    <div id="botones">
+                        <input type="submit" value="Enviar">
+                        <br><br>
+                        <input type="button" value="Inicio" onclick="location.href='../index.html'">
+            </form>
+        </div>
+    </body>
+</html>

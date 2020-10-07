@@ -48,6 +48,7 @@ public class Cabeceras extends HttpServlet {
             + "<link rel=\"stylesheet\" href=\"CSS/estilos.css\">");             
             out.println("</head>");
             out.println("<body><div>");
+            out.println("<h1>Cabeceras</h1>");
             Enumeration<String> cabeceras = request.getHeaderNames();
             out.println("<table>"
                     +"<tr>"
