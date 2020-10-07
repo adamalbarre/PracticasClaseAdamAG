@@ -14,8 +14,8 @@
 4. Formulario Simple
    * Servlet que muestra los datos introducidos en un formulacio.
    
-5. Formulario Validad
-   *Servlet que valida los datos introducidos en un formulario.
+5. Formulario Validado
+   * Servlet que valida los datos introducidos en un formulario.
    
    
 #### JSP
