@@ -13,3 +13,15 @@
     
 4. Formulario Simple
    * Servlet que muestra los datos introducidos en un formulacio.
+   
+5. Formulario Validado
+   * Servlet que valida los datos introducidos en un formulario.
+   
+   
+#### JSP
+
+1. Saludo JSP
+   * JSP que envía un saludo personalizado.
+   
+2. Edad JSP
+   * Saludo personalizado en base a la edad.
