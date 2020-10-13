@@ -3,11 +3,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>es.albarregas</groupId>
-    <artifactId>MiPrimerProyecto</artifactId>
+    <artifactId>PracticasClaseAdamAG</artifactId>
     <version>1.0</version>
     <packaging>war</packaging>
 
-    <name>MiPrimerProyecto</name>
+    <name>PracticasClaseAdamAG</name>
 
     <properties>
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
