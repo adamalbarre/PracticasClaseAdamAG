@@ -25,3 +25,15 @@
    
 2. Edad JSP
    * Saludo personalizado en base a la edad.
+  
+3. Calculadora
+   * JSP con las funciones de una calculadora.
+
+4. Monedero
+   * JSP cuya función es calcular la vuelta a recibir tras un pago (aún en proceso).
+
+5. Contador
+   * Contador de visitas a través de una Cookie
+
+6. Menú de Cookies
+   * Menú a través del que se pueden gestionar cookies (Crear, Visualizar, Modificar y Eliminar).
